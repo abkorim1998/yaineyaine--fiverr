@@ -1,0 +1,338 @@
+/*
+Theme Name: yane theme
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: abkorim
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: yane theme
+
+*/
+
+.menu div {
+    display: inline;
+    font-size: 25px;
+    background:rgba(0, 0, 0, 0.6);
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px;
+}
+.menu div a{
+    color: rgb(255, 255, 255);
+}
+.menu div span{
+    font-size: 22px;
+    padding: 0px 5px 0px 10px;
+}
+.menu{
+    margin: 15px 0  0 15px;
+}
+.kbcover{
+    background: #0000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+#thumbnails{
+    overflow: hidden;
+}
+
+.showImages{
+    position: fixed;
+    bottom: 10px;
+    left: 16px;
+    font-size: 39px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0px 13px 0px 13px;
+    border-radius: 4px;
+   
+}
+.showImages a{
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+.todoShowbutton{
+    position: fixed;
+    bottom: 65px;
+    left: 16px;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0px 13px 0px 13px;
+    border-radius: 4px;
+    display: none;
+}
+.todoShowbutton a{
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+
+/* search Section */
+.searchSection {
+    text-align: center;
+    
+}
+.searchSection input{
+   
+    font-size: 26px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid #fff;
+    transition: all .5s;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline;
+    margin-top: 70px;
+    
+}
+
+/* clock section */
+.clockSection {
+    margin-top: 270px;
+    display: none;
+}
+#Date { 
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; 
+    font-size:36px; 
+    text-align:center; 
+    text-shadow:0 0 5px #00c6ff; 
+    color: rgb(255, 255, 255)
+}
+
+.clockSection ul { 
+    width:800px;
+    margin:0 auto; 
+    padding:0px; 
+    list-style:none; 
+    text-align:center;
+}
+.clockSection ul li { 
+    color: rgb(255, 255, 255);
+    display:inline; 
+    font-size:6em; 
+    text-align:center; 
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; 
+    text-shadow:0 0 5px #00c6ff; 
+}
+
+#point { 
+    position:relative; 
+    -moz-animation:mymove 1s ease infinite; 
+    -webkit-animation:mymove 1s ease infinite; 
+    padding-left:10px; padding-right:10px; 
+}
+
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+
+
+/* setting section */
+
+.settingSection{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 23%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.71);
+    overflow: hidden;
+    padding: 10px;
+    display: none;
+}
+.closeBtn{
+    text-align: right;
+}
+.closeBtn a{
+    font-size: 18px;
+}
+.settingFunc ul {
+    list-style: none;
+    padding: 0;
+}
+.settingFunc li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.settingFoo{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+.settingFoo ul{
+    list-style: none;
+    padding: 0;
+}
+.settingFoo ul li{
+    display: initial;
+    padding: 10px;
+}
+.settingFoo ul a{
+    color: white;
+}
+
+
+
+
+/* button */
+.item-name {
+    display: initial;
+    float: left;
+    padding-right: 20%;
+}
+.switch-button-label {
+    float: left;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.switch-button-label.off {
+    color: #adadad;
+}
+.switch-button-label.on {
+    color: #0088CC;
+}
+.switch-button-background {
+    float: left;
+    position: relative;
+    background: #ccc;
+    border: 1px solid #aaa;
+    margin: 1px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.switch-button-button {
+    position: absolute;
+    left: -1px;
+    top : -1px;
+    background: #FAFAFA;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* todo section */
+.todoSection{
+    color: #000;
+    width: 300px;
+    height: 250px;
+    background: white;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 50px;
+    left: 100px;
+    display: none;
+}
+.todoHead{
+    background: #ccc;
+    padding: 3px;
+    height: 20px;
+}
+.todoHead input{
+    margin: 0;
+    padding: 0px 9px 0px 9px;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.headLeft{
+    display: inline;
+    float: left;
+}
+.headRight{
+    display: inline;
+    float: right;
+    margin-right: 9px;
+}
+.headRight a{
+    padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+    color: white;
+}
+.headRight a:hover{
+    color: rgb(189, 185, 185);
+}
+
+.todoBody{
+    /* padding: 10px; */
+    overflow: scroll;
+    height: 220px;
+    overflow-x: hidden;
+}
+.todoBody::-webkit-scrollbar {
+    width: 12px;
+}
+
+.todoBody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.todoBody::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.todoBody ul{
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+.todoBody ul li{
+    background: rgba(0, 0, 0, 0.26);
+    margin: 5px 0 0 0;
+    padding: 0px 0px 0 10px;
+}
+.todoBody .todoContent{
+    color: #000;
+    display: inline;
+    overflow: hidden;
+    display: -webkit-inline-box;
+}
+.todoBody .todoContent p{
+    margin: 0;
+}
+.todoBody .todoEvent{
+    float: right;
+}
+
+/* todo complete item  */
+.complete-item-p {
+    color: rgba(68, 68, 68, 0.849);
+    text-decoration:line-through;
+}
+.item-bg {
+    background: forestgreen !important;
+}
+
+/* iframe Section */
+.iframeSection {
+    background: #000;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: none;
+}
